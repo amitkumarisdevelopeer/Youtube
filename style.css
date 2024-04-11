@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0b3a4127;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(red,green,blue,violet);
+    border-radius: 20px;
+}
+#main{
+ 
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+#page1 #nav{
+    position: static;
+    height: 12vh;
+    width: 100%;
+    /* background-color: #0b3a4127; */
+    /* background-color: blue; */
+}
+#page1 #nav #nav1{
+    position:relative;
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #0b3a4127;
+}
+#nav1 i{
+    font-size: 1.5rem;
+  color:black;
+  padding: 10px 10px;
+  border-radius: 50%;
+   
+}
+#nav1 i:hover{
+    background-color: rgba(226, 222, 222, 0.882);
+    cursor: pointer;
+}
+#nav1 img{
+    height: 60px;
+    cursor: pointer;
+    position: fixed;
+    
+}
+#nav #nav2{
+    position:fixed;
+    left: 25%;
+    top: 2%;
+    outline: none;
+    background-color: white;
+    padding: 13px 340px;
+    border-radius: 30px;
+    border: 1.5px solid rgb(236, 208, 208);
+    cursor: pointer;
+    z-index: 9999;
+   
+}
+#nav #nav2 i{
+    position: relative;
+    left: -1950%;
+    color:rgb(159, 142, 142);
+}
+input{
+    top: 0;
+    left: 8%;
+    outline: none;
+    position: absolute;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.ri-mic-fill{
+    position: absolute;
+    right: 20%;
+    top: 2%;
+    font-size: 20px;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: rgba(230, 223, 223, 0.858);
+    cursor: pointer;
+}
+
+#right{
+    position: absolute;
+    right: 0%;
+    height: 60px;
+    width: 15%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #0b3a4127;
+}
+#right i{
+    color: rgba(0, 0, 0, 0.714);
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#right i:hover{
+    background-color:rgba(191, 179, 179, 0.712);
+}
+#circle{
+    height: 40px;
+    width: 40px;
+    background-image: url(https://images.unsplash.com/photo-1499415479124-43c32433a620?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#search{
+   
+    display: none;
+}
+#left{
+    position: fixed;
+    height: 87vh;
+    width: 15vw;
+    /* background-color: red; */
+}
+.section1{
+    position: relative;
+    height: 23vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+}
+.section1 #one{
+    height: 8vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #0b3a4127;
+}
+.section1 #one:hover{
+    background-color: rgba(227, 218, 218, 0.796);
+    cursor: pointer;
+}
+#one h3{
+    font-size: 15px;
+    font-family: gilroy;
+    font-weight: 900;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/236x/3c/6d/83/3c6d83fccf5e88025988643bde64a5d8.jpg");
+    background-size: cover;
+    background-position:  center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.section2{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    background-color: #0b3a4127;
+}
+.section2 #two{
+    height: 8vh;
+    width: 100%;
+    /* background-color: green; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+.section2 #two:hover{
+    background-color: rgba(227, 218, 218, 0.796);
+    cursor: pointer;
+}
+
+.rect{
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+#one11{
+    position: relative;
+    left: 15%;
+    height: 100%;
+width: 27.5%;
+/* background-color: blue; */
+overflow: hidden;
+border-radius: 20px;
+
+
+}
+#one11 iframe{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rect1{
+    position: relative;
+    top: 10%;
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+.rect2{
+    position: relative;
+    top: 20%;
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+
+.rect3{
+    position: relative;
+    top: 30%;
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+.rect4{
+    position: relative;
+    top: 40%;
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+.rect5{
+    position: relative;
+    top: 50%;
+    height: 230px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+#two h3{
+    font-size: 15px;
+    font-family: gilroy;
+    font-weight: 900;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/236x/3c/6d/83/3c6d83fccf5e88025988643bde64a5d8.jpg");
+    background-size: cover;
+    background-position:  center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@media (max-width:720px) {
+    #nav1 img{
+        position: relative;
+        left: -40%;
+        top: -20%;
+        height: 80px;
+        cursor: pointer;
+    }
+    #nav #nav2{
+        display: none;
+        position: absolute;
+        left: 25%;
+        top: 2%;
+        outline: none;
+        background-color: white;
+        padding: 13px 340px;
+        border-radius: 30px;
+        border: 1px solid rgb(236, 208, 208);
+        cursor: pointer;
+       
+    }
+    .ri-mic-fill{
+        display: none;
+        position: absolute;
+        right: 20%;
+        top: 2%;
+        font-size: 20px;
+        color: black;
+        padding: 10px 10px;
+        border-radius: 50%;
+        background-color: rgba(230, 223, 223, 0.858);
+        cursor: pointer;
+    }
+    #search{
+        display: block;
+    }
+    #right{
+        position: absolute;
+        right: 12%;
+        height: 60px;
+        width: 10%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    
+}
+
